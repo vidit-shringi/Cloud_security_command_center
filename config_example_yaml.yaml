@@ -1,0 +1,41 @@
+# ==========================================
+# INTERNSHIELD CSCC CONFIGURATION
+# ==========================================
+# Rename this file to 'config.yaml' to apply custom settings.
+
+app:
+  name: "InternShield CSCC"
+  version: "1.0"
+  log_level: "INFO"  # Options: DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+aws:
+  default_region: "us-east-1"
+  max_retries: 3
+
+ai:
+  # Supported providers: shellgpt, openai, anthropic, gemini, local, disabled
+  default_provider: "shellgpt"
+  require_human_confirmation: true
+
+reporting:
+  output_dir: "reports"
+  default_formats: 
+    - json
+    - html
+```
+
+---
+
+### User Inko Download Karke Kaise Use Karega?
+Jab koi naya user aapki repo download karega, toh wo apne terminal mein bas ye commands likhega:
+
+**Linux / Mac par:**
+```bash
+cp .env.example .env
+cp config.example.yaml config.yaml
+```
+
+**Windows par:**
+```cmd
+copy .env.example .env
+copy config.example.yaml config.yaml
