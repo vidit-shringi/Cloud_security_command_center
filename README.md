@@ -1,6 +1,3 @@
-<div align="center">
-
-<img src="assets/internshield-iam-banner.png" alt="InternShield AI-Powered IAM Security Auditor" width="100%">
 # 🛡️ InternShield CSCC
 
 ### Cloud Security Command Center
